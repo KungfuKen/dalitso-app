@@ -11,18 +11,18 @@ import Link from 'next/link';
 export default function Home() {
 
   return (
-    <div className="bg-gradient-to-b from-black via-black to-gray-900 min-h-screen overflow-y-auto flex-col justify-center items-center">
+    <div className="bg-zinc-900 min-h-screen overflow-y-auto flex-col justify-center items-center">
         <Head>
-          <title>DTB Insights | Network Architecture & Wireless Consulting</title>
-          <meta name="description" content="Dalitso T Banda - Network architecture and wireless consulting expert. Learn about telecommunications, Linux systems, and network protocols." />
-          <meta name="keywords" content="Network Architecture, Wireless Connectivity, Telecommunications, Linux Systems, Network Protocols" />
-          <meta property="og:title" content="DTB Insights | Network Architecture & Wireless Consulting" />
-          <meta property="og:description" content="Consulting on network architecture and wireless connectivity. Explore advanced telecommunications and network protocols." />
+          <title>Dalitso Banda | Engineering Analysis</title>
+          <meta name="description" content="Dalitso T Banda - An Electrical and Computer Engineer with hands on experience working on complex systems writing technical analysis of cutting edge engineering systems" />
+          <meta name="keywords" content="Electrical Engineering, Semiconductors" />
+          <meta property="og:title" content="DTB Insights | In depth analysis of engineering systems" />
+          <meta property="og:description" content="In depth analysis of engineering systems" />
           <meta property="og:image" content="https://dtbinsights.com/Logo.png" />
           <meta property="og:url" content="https://dtbinsights.com/" />
           <meta name="twitter:card" content="summary_large_image"/>
-          <meta name="twitter:title" content="DTB Insights | Network Architecture & Wireless Consulting"/>
-          <meta name="twitter:description" content="Dalitso T Banda specializes in advanced network architecture and wireless systems consulting."/>
+          <meta name="twitter:title" content="DTB Insights | Technical analysis of cutting edge engineering"/>
+          <meta name="twitter:description" content="Dalitso T Banda - An Electrical and Computer Engineer with hands on experience working on complex systems writing technical analysis of cutting edge engineering systems"/>
           <meta name="twitter:image" content="https://dtbinsights.com/Logo.png"/>
 
            {/* Structured Data (JSON-LD) */}
@@ -35,7 +35,7 @@ export default function Home() {
                 "name": "DTB Insights",
                 "url": "https://dtbinsights.com/",
                 "logo": "https://dtbinsights.com/Logo.png",
-                "description": "Dalitso T Banda offers consulting services in network architecture and wireless connectivity.",
+                "description": "Dalitso T Banda - An Electrical and Computer Engineer with hands on experience working on complex systems writing technical analysis of cutting edge engineering systems",
                 "sameAs": [
                   "https://www.linkedin.com/in/dalitso-banda-6a5435189",
                   "https://wa.me/27769547017"
@@ -51,277 +51,318 @@ export default function Home() {
         {/* Site banner*/}
         <div className="w-screen">
           <Image
-              className="top-3 left-3 absolute"
+              className="top-5 left-3 absolute"
               src="/LogoDTB.png" // 
               alt="Site Logo"
               width={150}
               height={70}
             />
-          <a href="#bottom" className="font-bold text-sm bg-gradient-to-r from-gray-900 to-emerald-900 
-            absolute top-5 right-3 p-2 rounded-3xl opacity-80">
-            Get in touch →
+          <a href="#bottom" className="font-bold text-sm bg-zinc-900 border-2 border-white absolute top-5 right-4 p-2 rounded-3xl opacity-80">
+            Get in touch
           </a>
         </div>
+                
+        {/* MOBILE CONTENT */}
+        <div className="px-6 py-8 pt-28 md:hidden">
 
-        {/* MOBILE: Heading and Site Logo */}
-      <div className="bg-[url('/BG_img.png')] bg-cover bg-center w-full h-full p-8 md:hidden flex justify-center items-center">
-        <div>
-            <h1 className="text-4xl pt-24 font-sans text-white font-bold text-center">
-            Drive the Sales of Your IT/Telecommunications Products
-            </h1>
-            <div className="mt-5">
-              <Image
-                className="mx-auto p-3"
-                src="/rating_icon.png" // 
-                alt="Site Logo"
-                width={220}
-                height={200}
-              />
+          {/* Intro */}
+          <p className="text-gray-200 font-mono text-sm">
+            My name is
+          </p>
+
+          <h1 className="text-3xl font-serif text-gray-200 font-bold mt-2">
+            Dalitso T Banda
+          </h1>
+
+          <p className="text-gray-200 font-mono text-sm mt-4">
+            Electrical and Computer Engineer, University of Cape Town [Alma Mater].
+          </p>
+
+          {/* Email */}
+          <div className="">
+            <a
+              href="mailto:dalitso.banda@dtbinsights.com"
+              className="text-gray-200 text-sm hover:text-green-500"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5 inline-block mr-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>
+              dalitso.banda@dtbinsights.com
+            </a>
+          </div>
+
+          <p className="text-gray-200 font-mono text-sm mt-2">
+            On DTB Insights, I write in-depth technical analysis of various
+            engineering systems across the electrical domain. My background is in
+            telecommunications infrastructure and these days I write technical
+            analysis focused on semiconductor technology and clean energy systems.
+          </p>
+
+          {/* Random Facts */}
+          <div className="mt-4">
+            <p className="text-gray-200 font-mono font-semibold">
+              3 Random facts about me
+            </p>
+
+            <p className="text-gray-200 font-mono text-sm mt-2">
+              1. I am music obsessed [Checkout this playlist I made]
+            </p>
+
+            <p className="text-gray-200 font-mono text-sm">
+              2. I like to workout [11 sec 100m PB & Calisthenics]
+            </p>
+
+            <p className="text-gray-200 font-mono text-sm">
+              3. I make artsy videos [Here is a sample]
+            </p>
+          </div>
+
+          {/* Projects */}
+          <div className="mt-8 space-y-4">
+
+            <div className="border border-white p-4 rounded-3xl">
+              <p className="text-gray-200 font-mono font-bold">
+                Engineering 500 KM/H
+              </p>
+
+              <p className="text-gray-200 font-mono text-sm mt-2">
+                A technical analysis of the engineering systems that enable the
+                500 KM/H speed of the Yangwang U9 extreme hypercar.
+              </p>
             </div>
-            <div className="mt-5 pb-7">
-              <h2 className="mb-3 text-2xl font-sans text-white font-bold text-center">Join the Waiting List for Advanced Industry Reports</h2>
-              <h2 className="mb-3 text-xl font-sans text-white font-bold text-center">Next Report is on Networking Connectivity in the Mining Industry</h2>
-              
-              <div className="flex justify-center items-center w-full">
-              <a href="https://zc.vg/JSkXs" className="cursor-pointer mt-2 p-4 font-sans px-4 py-2 bg-transperant text-white hover:bg-gradient-to-b 
-                from-emerald-900 to-gray-900 focus:outline-emerald-900 focus:ring-2 focus:ring-green-700
-                rounded-3xl text-lg border border-white animate-pulse-button">
-                Sign-up
+
+            <div className="border border-white p-4 rounded-3xl">
+              <p className="text-gray-200 font-mono font-bold">
+                A Complete Analysis of Mesh Networks
+              </p>
+              <p className="text-gray-200 font-mono text-sm mt-2">
+		A Wireless Mesh Network (WMN) is a network where all (or most) devices are connected to each other. Essentially, each device (cell pho
+	        ne, traffic light, laptop, car, sensor etc.) in a mesh network serves as a mini-cell tower or router, wirelessly routing and 
+	        repeating signals received.
+              </p>
+	    </div>
+          </div>
+
+          {/* Socials */}
+          <div className="mt-8">
+
+            <p className="text-gray-200 font-mono font-bold mb-4">
+              Socials
+            </p>
+
+            <div className="flex gap-6">
+
+              <a href="https://www.linkedin.com/in/dtbanda">
+                <Image
+                  src="/LinkedIn_Icon.png"
+                  alt="LinkedIn"
+                  width={25}
+                  height={25}
+                />
               </a>
+
+              <a href="https://www.twitter.com/dtbanda">
+                <Image
+                  src="/Twitter.jpg"
+                  alt="Twitter"
+                  width={24}
+                  height={24}
+                  className="rounded-3xl"
+                />
+              </a>
+
+              <a href="https://substack.com/dtbanda">
+                <Image
+                  src="/Substack.png"
+                  alt="Substack"
+                  width={24}
+                  height={24}
+                  className="rounded-3xl"
+                />
+              </a>
+
+              <a href="https://wa.me/27769547017">
+                <Image
+                  src="/WhatsApp_Icon.png"
+                  alt="WhatsApp"
+                  width={25}
+                  height={25}
+                />
+              </a>
+            </div>
+          </div>
+
+          {/* Footer */}
+          <div id="bottom" className="mt-10">
+            <p className="text-gray-200 font-mono text-xs inline-block">
+              Made by Dalitso Tenthani Banda
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5 inline-block ml-2 mr-2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+            </svg>
+            <p className="text-gray-200 font-mono text-xs mt-2 inline-block">
+              Last updated June 2026, Lusaka.
+            </p>
+          </div>
+
+        </div>
+
+        {/* Laptop: Heading and Site Logo */}
+        <div className="pt-12 hidden md:block mx-auto">
+
+          <div className="text-left p-16 hidden md:block">
+
+            {/* Openning sentence describing app */}
+            <div className="flex items-center justify-center">
+              
+              <div className="w-1/3">
+                <p className="text-gray-200 font-mono">My name is</p>
+                <h1 className="text-5xl font-serif text-gray-200 font-bold text-center">
+                        Dalitso T Banda
+                </h1>      
               </div>
-            </div> 
-          </div>  
-        </div>
 
-        {/* PC: Heading and Site Logo */}
-        <div className="pb-10 hidden md:block bg-cover bg-center w-full h-full bg-[url('/BG_img.png')]">
-          <div className="pt-24">
-            <h1 className="text-4xl font-sans text-white font-bold text-center">
-            Drive the Sales of Your IT/Telecommunications Products
-            </h1>
-          </div>
-          <div className="mt-5">
-            <Image
-              className="mx-auto p-3"
-              src="/rating_icon.png" // 
-              alt="Site Logo"
-              width={220}
-              height={200}
-            />
-          </div>
-
-          <div className="pb-1 mt-3 justify-center items-center">
-            <h2 className="mb-3 text-2xl font-sans text-white font-bold text-center">Join the Waiting List for Advanced Industry Reports</h2>
-            <h2 className="mb-3 text-xl font-sans text-white font-bold text-center">Next Report is on Networking Connectivity in the Mining Industry</h2>
-            
-            <div className="flex justify-center items-center w-full">
-            <a href="https://zc.vg/JSkXs" className="cursor-pointer mt-2 p-4 font-sans px-4 py-2 bg-transperant text-white hover:bg-gradient-to-b 
-              from-emerald-900 to-gray-900 focus:outline-emerald-900 focus:ring-2 focus:ring-green-700
-              rounded-3xl text-lg border border-white animate-pulse-button">
-              Sign-up
-            </a>
-            </div> 
-          </div> 
-
-        </div>
-
-        {/* @Mobile: Info and media about app capabilities */}
-        <div className="text-left p-8 md:hidden">
-          {/* Opening sentence describing app */}
-          <p className="font-bold text-green-700 text-xl mb-4">
-           About
-          </p>
-          <p className="font text-white text-lg mb-4">
-            My name is Dalitso T Banda. I'm an engineer specialising in network architecture and wireless connectivity.
-          </p>
-          <p className="font text-white text-lg">
-           I am interested in advanced Telecommunications, Network Protocols and Architecture, and Linux Systems. 
-          </p>
-          <div className="rounded-full p-4">
-              <Image
-                className="mx-auto rounded-full opacity-80"
-                src="/Headshot.png" 
-                alt="Site Logo"
-                width={120}
-                height={120}
-              />
-          </div>
-          <p className="font text-white text-lg mb-4">
-            Explore my insights on these topics by following my blog and subscribing to my newsletter.  
-          </p>
-          <p className="font text-white text-lg mb-4">
-            Feel welcome to reach out to me for collaboration and consultation.
-          </p>
-
-          {/*menu selector */}
-          <div className="w-full bg-gradient-to-r from-gray-900 to-emerald-900 p-3 mt-8 mb-8 rounded-full opacity-80 flex">
-            <div className="w-1/3 flex justify-center items-center hover:bg-slate-700 rounded-l-full"> 
-              <Link legacyBehavior href="#bottom">
-                <a className="font-bold text-white text-xl text-center">
-                  Get in touch
-                </a>
-              </Link>
+              <div className="w-2/3">
+                <p className="text-gray-200 font-mono text-sm">
+                  — Electrical and Computer Engineer, University of Cape Town [Alma Mater]. 
+                </p>
+                <p className="text-gray-200 font-mono text-sm">
+                  On DTB Insights, I write in-depth technical analysis of various engineering systems across the electrical domain. 
+                  My background is in telecommunications infrastructure and these days I write technical analysis focused on semiconductor 
+                  technology and clean energy systems — two areas I think matter immensely in the next decade of engineering.
+                </p>
+              </div>
             </div>
-            <div className="w-1/3 flex justify-center items-center hover:bg-slate-700"> 
-              <Link legacyBehavior href="blog"> 
-                <a className="font-bold text-white text-xl text-center">
-                  Blog
-                </a>
-              </Link>
+
+            <div>
+              <a href="mailto:dalitso.banda@dtbinsights.com"
+              className="text-gray-200 font-sans pt-3 text-sm font-italic hover:text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5 inline-block mr-2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                  </svg>
+                  dalitso.banda@dtbinsights.com
+	            </a>
+              
+              <p className="text-gray-200 font-mono pt-3 text-sm font-semibold"> 
+                  3 Random facts about me 
+              </p>
+              <p className="text-gray-200 font-mono pl-5 text-sm">
+                 1. I am music obsessed [Checkout this playlist I made] 
+              </p>
+              <p className="text-gray-200 font-mono pl-5 text-sm">
+                 2. I like to workout [11 sec 100m PB & Calisthenics]   
+              </p>
+              <p className="text-gray-200 font-mono pl-5 text-sm">
+                 3. I make artsy videos [Here is a sample]
+              </p>
             </div>
-            <div className="w-1/3 flex justify-center items-center hover:bg-slate-700 rounded-r-full"> 
-              <Link legacyBehavior href="#top">
-                <a className="font-bold text-white text-xl text-center">
-                  Newsletter
-                </a>
-              </Link>
-            </div> 
-          </div>
-
-          {/* Get intouch section */}
-          <p className="font-bold text-green-700 text-xl mt-4">
-              Get in touch
-          </p>
-        </div>
-
-        {/* @Laptop */}
-        {/* @Laptop: Info and media about app capabilities */}
-        <div className="text-left p-16 hidden md:block">
-          {/* Openning sentence describing app */}
-          <div className="flex">
-            <div className="w-3/4">
-            <p className="font-bold text-green-700 text-2xl p-2">
-              About
-            </p>
-            <p className=" text-white p-2 text-xl font-lg">
-              My name is Dalitso T Banda. I'm an engineer specialising in network architecture and wireless connectivity.
-            </p>
-            <p className=" text-white p-2 text-xl font-lg">
-            I am interested in advanced Telecommunications, Network Protocols and Architecture, and Linux Systems. 
-            </p>
-            <p className=" text-white p-2 text-xl font-lg">
-            Explore my insights on these topics by following my blog and subscribing to my newsletter.  
-            </p>
-            <p className=" text-white p-2 text-xl font-lg">
-              Feel welcome to reach out to me for collaboration and consultation.
-            </p>
+            <div className="flex pt-3">
+              <p className="text-gray-200 font-mono text-sm">
+                Here is a selection of technical analysis and projects that I have published and are in progress.
+              </p>
             </div>
-            <div className="rounded-full p-8 w-1/4">
-              <Image
-                className="mx-auto rounded-full opacity-80"
-                src="/Headshot.png" 
-                alt="Site Logo"
-                width={150}
-                height={150}
-              />
+            <div className="flex items-center justify-center mt-10">
+              <div className="border border-white p-3 rounded-3xl mr-2 w-1/2 hover:scale-105 hover:border-green-500">
+                  <p className="text-gray-200 font-mono text-lg font-bold">
+                    Engineering 500 KM/H
+                  </p>
+                  <p className="text-gray-200 font-mono text-sm">
+                    A technical analysis of the engineering systems that enable the 500 KM/H speed of the Yangwang U9 xtreme hypercar.
+                  </p>
+              </div>
+              <div className="border border-white p-3 rounded-3xl ml-2 w-1/2 hover:scale-105 hover:border-green-500">
+                  <p className="text-gray-200 font-mono text-lg font-bold">
+                    A Complete Analysis of Mesh Networks
+                  </p>
+                  <p className="text-gray-200 font-mono text-sm mt-2">
+		A Wireless Mesh Network (WMN) is a network where all (or most) devices are connected to each other. Essentially, each device (cell pho
+	        ne, traffic light, laptop, car, sensor etc.) in a mesh network serves as a mini-cell tower or router, wirelessly routing and 
+	        repeating signals received.
+	  	  </p>
+              </div>  
+            </div>
+              {/* @Laptop: Socials and Footer */}
+            <div className="text-left mt-10 hidden md:block"> 
+
+                {/* Contact Card */}
+                <p className="text-gray-200 font-mono font-bold">
+                      Socials 
+                  </p>
+                  <div className="flex items-centre "> 
+
+                  {/* LinkedIn Contact */}
+                  <div className="flex items-center ml-4">
+                    <a
+                      href="https://www.linkedin.com/in/dtbanda"
+                      className="">
+                      <Image
+                        className=""
+                        src="/LinkedIn_Icon.png" // 
+                        alt="Site Logo"
+                        width={25}
+                        height={11}
+                      />
+                    </a>
+                  </div>
+
+                  {/* Twitter Contact */}
+                  <div className="flex items-center ml-8">
+                    <a
+                      href="https://www.twitter.com/dtbanda"
+                      className="">
+                      <Image
+                        className="rounded-3xl"
+                        src="/Twitter.jpg" // 
+                        alt="Site Logo"
+                        width={24}
+                        height={10}
+                      />
+                    </a>
+                  </div>
+
+                  {/*Substack Contact */}
+                  <div className="flex items-centre ml-8">
+                    <a
+                      href="https://substack.com/dtbanda"
+                      className="">
+                      <Image
+                        className="rounded-3xl"
+                        src="/Substack.png" // 
+                        alt="Site Logo"
+                        width={24}
+                        height={10}
+                      />
+                    </a>
+                  </div>
+
+                  {/* WhatsApp Contact */}
+                  <div className="flex items-centre ml-8">
+                    <a
+                      href="https://wa.me/27769547017"
+                      className="">
+                      <Image
+                        className=""
+                        src="/WhatsApp_Icon.png" // 
+                        alt="Site Logo"
+                        width={25}
+                        height={11}
+                      />
+                    </a>
+                  </div>
+            </div>
+
+                {/*footer*/}
+                <div id="bottom" className="mt-3">
+                  
+                  <p className="text-gray-200 font-mono text-xs inline-block">
+                  Made by Dalitso Tenthani Banda</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5 inline-block ml-2 mr-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                  </svg>
+                  <p className="text-gray-200 font-mono text-xs inline-block">Last updated June 2026, Lusaka.</p>
+                </div>
             </div>
           </div>
-
-          {/*menu selector */}
-          <div className="w-full bg-gradient-to-r from-gray-900 to-emerald-900 p-3 mt-8 mb-8 rounded-full opacity-80 flex">
-            <div className="w-1/3 flex justify-center items-center hover:bg-slate-700 rounded-l-full"> 
-              <Link legacyBehavior href="#bottom">
-                <a className="font-bold text-white text-2xl text-center">
-                  Get in touch
-                </a>
-              </Link>
-            </div>
-            <div className="w-1/3 flex justify-center items-center hover:bg-slate-700"> 
-              <Link legacyBehavior href="blog"> 
-                <a className="font-bold text-white text-2xl text-center">
-                  Blog
-                </a>
-              </Link>
-            </div>
-            <div className="w-1/3 flex justify-center items-center hover:bg-slate-700 rounded-r-full"> 
-              <Link legacyBehavior href="#top">
-                <a className="font-bold text-white text-2xl text-center">
-                  Newsletter
-                </a>
-              </Link>
-            </div> 
-          </div>
-
-          {/* Get in touch section */}
-          <p className="font-bold text-green-700 text-xl mt-4">
-              Get in touch
-          </p>
-        </div>
-
-        {/* Contact Card */}
-        <div className="p-6 max-w-md mx-auto bg-black rounded-lg shadow-lg mb-8">
-          <p className="font-bold text-gray-100 text-xl mb-4 text-center">
-              Contacts
-          </p>
-          {/* Email Contact */}
-          <div className="flex items-center space-x-2 mb-2">
-              <Image
-                className=""
-                src="/Email_Icon.png" // 
-                alt="Site Logo"
-                width={50}
-                height={22}
-              />
-            <a
-              href="mailto:tenthani2@gmail.com"
-              className="text-white font-semibold hover:text-blue-800"
-            >
-              Email
-            </a>
-          </div>
-
-          {/* WhatsApp Contact */}
-          <div className="flex items-center space-x-2 mb-4">
-            <Image
-                className=""
-                src="/WhatsApp_Icon.png" // 
-                alt="Site Logo"
-                width={50}
-                height={22}
-              />
-            <a
-              href="https://wa.me/27769547017"
-              className="text-green-600 font-semibold hover:text-green-800"
-            >
-              WhatsApp
-            </a>
-          </div>
-
-          {/* LinkedIn Contact */}
-          <div className="flex items-center space-x-2">
-          <Image
-                className=""
-                src="/LinkedIn_Icon.png" // 
-                alt="Site Logo"
-                width={50}
-                height={22}
-              />
-            <a
-              href="https://www.linkedin.com/in/dalitso-banda-6a5435189"
-              className="text-blue-600 font-semibold hover:text-blue-800"
-            >
-              LinkedIn
-            </a>
-          </div>
-        </div>
-
-        {/*footer*/}
-        <div id="bottom" className="bg-black h-40">
-          <div className="w-screen h-20 p-3">
-            <Image
-                className=" left-3 absolute"
-                src="/LogoDTB.png" // 
-                alt="Site Logo"
-                width={150}
-                height={70}
-              />
-            <a href="#top" className="cursor-pointer mt-1 p-2 font-sans right-3 absolute bg-transperant text-white hover:bg-gradient-to-b 
-            from-emerald-900 to-gray-900 focus:outline-emerald-900 focus:ring-2 focus:ring-green-700 
-            rounded-3xl text-lg border border-white animate-pulse-button">
-              Sign up
-            </a>
-          </div>
-          <p className="ml-3 mt-3">copyright © 2025</p>
         </div>
     </div>
   );
