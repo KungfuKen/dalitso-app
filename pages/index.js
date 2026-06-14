@@ -61,6 +61,165 @@ export default function Home() {
             Get in touch
           </a>
         </div>
+
+
+
+        {/* Laptop: Heading and Site Logo */}
+
+        <div className="pt-12 hidden md:block mx-auto">
+
+          <div className="text-left p-16 hidden md:block">
+
+            {/* Openning sentence describing app */}
+            <div className="flex items-center justify-center">
+              
+              <div className="w-1/3">
+                <p className="text-gray-200 font-mono">My name is</p>
+                <h1 className="text-5xl font-serif text-gray-200 font-bold text-center">
+                        Dalitso T Banda
+                </h1>      
+              </div>
+
+              <div className="w-2/3">
+                <p className="text-gray-200 font-mono text-sm">
+                  — Electrical and Computer Engineer, University of Cape Town [Alma Mater]. 
+                </p>
+                <p className="text-gray-200 font-mono text-sm">
+                  On DTB Insights, I write in-depth technical analysis of various engineering systems across the electrical domain. 
+                  My background is in telecommunications infrastructure and these days I write technical analysis focused on semiconductor 
+                  technology and clean energy systems — two areas I think matter immensely in the next decade of engineering.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <a href="mailto:dalitso.banda@dtbinsights.com"
+              className="text-gray-200 font-sans pt-3 text-sm font-italic hover:text-green-500">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5 inline-block mr-2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                  </svg>
+                  dalitso.banda@dtbinsights.com
+	            </a>
+              
+              <p className="text-gray-200 font-mono pt-3 text-sm font-semibold"> 
+                  3 Random facts about me 
+              </p>
+              <p className="text-gray-200 font-mono pl-5 text-sm">
+                 1. I am music obsessed [Checkout this playlist I made] 
+              </p>
+              <p className="text-gray-200 font-mono pl-5 text-sm">
+                 2. I like to workout [11 sec 100m PB & Calisthenics]   
+              </p>
+              <p className="text-gray-200 font-mono pl-5 text-sm">
+                 3. I make artsy videos [Here is a sample]
+              </p>
+            </div>
+            <div className="flex pt-3">
+              <p className="text-gray-200 font-mono text-sm">
+                Here is a selection of technical analysis and projects that I have published and are in progress.
+              </p>
+            </div>
+            
+            <div className="flex items-stretch justify-center mt-5">
+              <div className="border border-white m-3 rounded-3xl mr-2 w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">
+                  <video className="w-full object-cover rounded-t-3xl" autoPlay loop muted>
+                    <source src="/U9.mp4" type="video/mp4" />
+                  </video>
+                  <p className="text-gray-200 font-mono text-lg font-bold m-2">
+                    Engineering 500 KM/H
+                  </p>
+                  <p className="text-gray-200 font-mono text-sm m-2">
+                    A technical analysis of the engineering systems that enable the 500 KM/H speed of the Yangwang U9 xtreme hypercar.
+                  </p>
+              </div>
+
+              <div className="border border-white m-3 rounded-3xl w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
+                  <img 
+                    src="/MeshNetwork.jpeg" 
+                    alt="Mesh Network" 
+                    className="w-full object-cover rounded-t-3xl"
+                  />
+                  <p className="text-gray-200 font-mono text-lg font-bold m-2">
+                    A Complete Analysis of Mesh Networks
+                  </p>
+                  <p className="text-gray-200 font-mono text-sm m-2">
+		                A Wireless Mesh Network (WMN) is a network where all (or most) devices are connected to each other. Essentially, each device (cell pho
+                    ne, traffic light, laptop, car, sensor etc.) in a mesh network serves as a mini-cell tower or router, wirelessly routing and 
+                    repeating signals received.
+                  </p>
+              </div>  
+            </div>
+              {/* @Laptop: Socials and Footer */}
+            <div className="text-left mt-5 hidden md:block"> 
+
+                {/* Contact Card */}
+                <p className="text-gray-200 font-mono font-bold">
+                      Socials 
+                  </p>
+                  <div className="flex items-centre "> 
+
+                  {/* LinkedIn Contact */}
+                  <div className="flex items-center ml-4">
+                    <a
+                      href="https://www.linkedin.com/in/dtbanda"
+                      className="">
+                      <Image
+                        className=""
+                        src="/LinkedIn_Icon.png" // 
+                        alt="Site Logo"
+                        width={25}
+                        height={11}
+                      />
+                    </a>
+                  </div>
+
+                  {/* Twitter Contact */}
+                  <div className="flex items-center ml-8">
+                    <a
+                      href="https://www.twitter.com/dtbanda"
+                      className="">
+                      <Image
+                        className="rounded-3xl"
+                        src="/Twitter.jpg" // 
+                        alt="Site Logo"
+                        width={24}
+                        height={10}
+                      />
+                    </a>
+                  </div>
+
+                  {/*Substack Contact */}
+                  <div className="flex items-centre ml-8">
+                    <a
+                      href="https://substack.com/dtbanda"
+                      className="">
+                      <Image
+                        className="rounded-3xl"
+                        src="/Substack.png" // 
+                        alt="Site Logo"
+                        width={24}
+                        height={10}
+                      />
+                    </a>
+                  </div>
+
+                  {/* WhatsApp Contact */}
+                  <div className="flex items-centre ml-8">
+                    <a
+                      href="https://wa.me/27769547017"
+                      className="">
+                      <Image
+                        className=""
+                        src="/WhatsApp_Icon.png" // 
+                        alt="Site Logo"
+                        width={25}
+                        height={11}
+                      />
+                    </a>
+                  </div>
+        </div>
+
+
                 
         {/* MOBILE CONTENT */}
         <div className="px-6 py-8 pt-28 md:hidden">
@@ -120,7 +279,7 @@ export default function Home() {
           {/* Projects */}
           <div className="mt-8 space-y-4">
 
-            <div className="border border-white p-4 rounded-3xl">
+            <div className="border border-white p-4 rounded-3xl hover:scale-[1.02] hover:border-green-500 transition-all duration-300">
               <p className="text-gray-200 font-mono font-bold">
                 Engineering 500 KM/H
               </p>
@@ -131,14 +290,19 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="border border-white p-4 rounded-3xl">
-              <p className="text-gray-200 font-mono font-bold">
+            <div className="border border-white m-4 rounded-3xl hover:scale-[1.02] hover:border-green-500 transition-all duration-300">
+              <img 
+                src="/UrbanNetworks.png" 
+                alt="Mesh Network" 
+                className="w-full object-cover rounded-t-3xl"
+              />
+              <p className="text-gray-200 font-mono font-bold m-2">
                 A Complete Analysis of Mesh Networks
               </p>
-              <p className="text-gray-200 font-mono text-sm mt-2">
-		A Wireless Mesh Network (WMN) is a network where all (or most) devices are connected to each other. Essentially, each device (cell pho
-	        ne, traffic light, laptop, car, sensor etc.) in a mesh network serves as a mini-cell tower or router, wirelessly routing and 
-	        repeating signals received.
+              <p className="text-gray-200 font-mono text-sm m-2">
+		            A Wireless Mesh Network (WMN) is a network where all (or most) devices are connected to each other. Essentially, each device (cell pho
+	              ne, traffic light, laptop, car, sensor etc.) in a mesh network serves as a mini-cell tower or router, wirelessly routing and 
+	              repeating signals received.
               </p>
 	    </div>
           </div>
@@ -207,149 +371,6 @@ export default function Home() {
 
         </div>
 
-        {/* Laptop: Heading and Site Logo */}
-        <div className="pt-12 hidden md:block mx-auto">
-
-          <div className="text-left p-16 hidden md:block">
-
-            {/* Openning sentence describing app */}
-            <div className="flex items-center justify-center">
-              
-              <div className="w-1/3">
-                <p className="text-gray-200 font-mono">My name is</p>
-                <h1 className="text-5xl font-serif text-gray-200 font-bold text-center">
-                        Dalitso T Banda
-                </h1>      
-              </div>
-
-              <div className="w-2/3">
-                <p className="text-gray-200 font-mono text-sm">
-                  — Electrical and Computer Engineer, University of Cape Town [Alma Mater]. 
-                </p>
-                <p className="text-gray-200 font-mono text-sm">
-                  On DTB Insights, I write in-depth technical analysis of various engineering systems across the electrical domain. 
-                  My background is in telecommunications infrastructure and these days I write technical analysis focused on semiconductor 
-                  technology and clean energy systems — two areas I think matter immensely in the next decade of engineering.
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <a href="mailto:dalitso.banda@dtbinsights.com"
-              className="text-gray-200 font-sans pt-3 text-sm font-italic hover:text-green-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5 inline-block mr-2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                  </svg>
-                  dalitso.banda@dtbinsights.com
-	            </a>
-              
-              <p className="text-gray-200 font-mono pt-3 text-sm font-semibold"> 
-                  3 Random facts about me 
-              </p>
-              <p className="text-gray-200 font-mono pl-5 text-sm">
-                 1. I am music obsessed [Checkout this playlist I made] 
-              </p>
-              <p className="text-gray-200 font-mono pl-5 text-sm">
-                 2. I like to workout [11 sec 100m PB & Calisthenics]   
-              </p>
-              <p className="text-gray-200 font-mono pl-5 text-sm">
-                 3. I make artsy videos [Here is a sample]
-              </p>
-            </div>
-            <div className="flex pt-3">
-              <p className="text-gray-200 font-mono text-sm">
-                Here is a selection of technical analysis and projects that I have published and are in progress.
-              </p>
-            </div>
-            <div className="flex items-center justify-center mt-10">
-              <div className="border border-white p-3 rounded-3xl mr-2 w-1/2 hover:scale-105 hover:border-green-500">
-                  <p className="text-gray-200 font-mono text-lg font-bold">
-                    Engineering 500 KM/H
-                  </p>
-                  <p className="text-gray-200 font-mono text-sm">
-                    A technical analysis of the engineering systems that enable the 500 KM/H speed of the Yangwang U9 xtreme hypercar.
-                  </p>
-              </div>
-              <div className="border border-white p-3 rounded-3xl ml-2 w-1/2 hover:scale-105 hover:border-green-500">
-                  <p className="text-gray-200 font-mono text-lg font-bold">
-                    A Complete Analysis of Mesh Networks
-                  </p>
-                  <p className="text-gray-200 font-mono text-sm mt-2">
-		A Wireless Mesh Network (WMN) is a network where all (or most) devices are connected to each other. Essentially, each device (cell pho
-	        ne, traffic light, laptop, car, sensor etc.) in a mesh network serves as a mini-cell tower or router, wirelessly routing and 
-	        repeating signals received.
-	  	  </p>
-              </div>  
-            </div>
-              {/* @Laptop: Socials and Footer */}
-            <div className="text-left mt-10 hidden md:block"> 
-
-                {/* Contact Card */}
-                <p className="text-gray-200 font-mono font-bold">
-                      Socials 
-                  </p>
-                  <div className="flex items-centre "> 
-
-                  {/* LinkedIn Contact */}
-                  <div className="flex items-center ml-4">
-                    <a
-                      href="https://www.linkedin.com/in/dtbanda"
-                      className="">
-                      <Image
-                        className=""
-                        src="/LinkedIn_Icon.png" // 
-                        alt="Site Logo"
-                        width={25}
-                        height={11}
-                      />
-                    </a>
-                  </div>
-
-                  {/* Twitter Contact */}
-                  <div className="flex items-center ml-8">
-                    <a
-                      href="https://www.twitter.com/dtbanda"
-                      className="">
-                      <Image
-                        className="rounded-3xl"
-                        src="/Twitter.jpg" // 
-                        alt="Site Logo"
-                        width={24}
-                        height={10}
-                      />
-                    </a>
-                  </div>
-
-                  {/*Substack Contact */}
-                  <div className="flex items-centre ml-8">
-                    <a
-                      href="https://substack.com/dtbanda"
-                      className="">
-                      <Image
-                        className="rounded-3xl"
-                        src="/Substack.png" // 
-                        alt="Site Logo"
-                        width={24}
-                        height={10}
-                      />
-                    </a>
-                  </div>
-
-                  {/* WhatsApp Contact */}
-                  <div className="flex items-centre ml-8">
-                    <a
-                      href="https://wa.me/27769547017"
-                      className="">
-                      <Image
-                        className=""
-                        src="/WhatsApp_Icon.png" // 
-                        alt="Site Logo"
-                        width={25}
-                        height={11}
-                      />
-                    </a>
-                  </div>
-            </div>
 
                 {/*footer*/}
                 <div id="bottom" className="mt-3">
