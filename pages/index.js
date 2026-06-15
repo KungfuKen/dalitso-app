@@ -136,7 +136,7 @@ export default function Home() {
               </div>
 
               <div className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
-                  <img 
+                  <Image 
                     src="/MeshNetwork.jpeg" 
                     alt="Mesh Network" 
                     className="w-full object-cover rounded-t-3xl"
