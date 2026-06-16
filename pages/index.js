@@ -71,20 +71,20 @@ export default function Home() {
           <div className="text-left p-4 md:p-16">
 
             {/* Openning sentence describing app */}
-            <div className="flex items-center justify-center">
+            <div className="flex md:items-center justify-center md:flex-row flex-col">
               
-              <div className="w-1/3">
+              <div className="md:w-1/3">
                 <p className="text-gray-200 font-mono">My name is</p>
                 <h1 className="text-5xl font-serif text-gray-200 font-bold text-center">
                         Dalitso T Banda
                 </h1>      
               </div>
 
-              <div className="w-2/3">
+              <div className="md:w-2/3 md:pt-0 pt-2">
                 <p className="text-gray-200 font-mono text-sm">
                   — Electrical and Computer Engineer, University of Cape Town [Alma Mater]. 
                 </p>
-                <p className="text-gray-200 font-mono text-sm">
+                <p className="text-gray-200 font-mono text-sm md:pt-0 pt-2">
                   On DTB Insights, I write in-depth technical analysis of various engineering systems across the electrical domain. 
                   My background is in telecommunications infrastructure and these days I write technical analysis focused on semiconductor 
                   technology and clean energy systems — two areas I think matter immensely in the next decade of engineering.
@@ -92,7 +92,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div>
+            <div className="md:pt-0 pt-2">
               <a href="mailto:dalitso.banda@dtbinsights.com"
               className="text-gray-200 font-sans pt-3 text-sm font-italic hover:text-green-500">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5 inline-block mr-2">
@@ -140,6 +140,8 @@ export default function Home() {
                     src="/MeshNetwork.jpeg" 
                     alt="Mesh Network" 
                     className="w-full object-cover rounded-t-3xl"
+                    width={500}
+                    height={300}
                   />
                   <p className="text-gray-200 font-mono text-lg font-bold m-2">
                     A Complete Analysis of Mesh Networks
