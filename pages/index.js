@@ -75,7 +75,7 @@ export default function Home() {
               
               <div className="md:w-1/3">
                 <p className="text-gray-200 font-mono">My name is</p>
-                <h1 className="text-5xl font-serif text-gray-200 font-bold text-center">
+                <h1 className="md:text-5xl text-3xl font-serif text-gray-200 font-bold text-center">
                         Dalitso T Banda
                 </h1>      
               </div>
