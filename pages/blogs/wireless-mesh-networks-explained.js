@@ -231,9 +231,10 @@ export default function BlogPost() {
             />
         </Link>
 
-        <a href="/" className="font-bold text-sm bg-zinc-900 border-2 border-white absolute top-5 right-4 p-2 rounded-3xl opacity-80">
+        <Link href="/" className="font-bold text-sm bg-zinc-900 border-2 border-white absolute top-5 right-4 p-2 rounded-3xl opacity-80">
             Get in touch
-        </a> 
+        </Link>
+        
       </div>
 
       {/* Blog Post Content */}
