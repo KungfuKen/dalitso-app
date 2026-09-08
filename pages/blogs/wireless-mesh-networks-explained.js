@@ -222,7 +222,6 @@ export default function BlogPost() {
       {/* Site banner */}
       <div className="w-screen">
         <Link href="/" legacyBehavior>
-          <a>
             <Image
               className="top-5 left-3 absolute"
               src="/LogoDTB.png"
@@ -230,7 +229,6 @@ export default function BlogPost() {
               width={150}
               height={70}
             />
-          </a>
         </Link>
 
         <a href="/" className="font-bold text-sm bg-zinc-900 border-2 border-white absolute top-5 right-4 p-2 rounded-3xl opacity-80">
