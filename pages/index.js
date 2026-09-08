@@ -121,21 +121,21 @@ export default function Home() {
             </div>
             
             <div className="flex items-stretch justify-center mt-5 md:flex-row flex-col">
-              <div className="border border-white m-3 rounded-3xl mr-2 md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">
+
+              <Link href="blogs/yangwang-u9-analysis" className="border border-white m-3 rounded-3xl mr-2 md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">
                   <video className="w-full object-cover rounded-t-3xl" autoPlay loop muted>
                     <source src="/U9.mp4" type="video/mp4" />
                   </video>
                   <p className="text-gray-200 font-mono text-lg font-bold m-2">
-                    Engineering 500 KM/H - A technical analysis of the electric powertrain that made BYD's near
-                    500 km/h world record possible.
+                    Engineering 500 KM/H -<span className="text-gray-200 font-mono font-normal text-sm m-2">A technical analysis of the electric powertrain that                     made BYD's near 500 km/h world record possible. </span>
                   </p>
                   <p className="text-gray-200 font-mono text-sm m-2">
                     This article analyses how the Yangwang U9 hypercar's e^4 electric drivetrain is able to
                     propel it to nearly 500 km/h and possibly beyond.              
                   </p>
-              </div>
-
-              <div className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
+              </Link>
+              
+              <Link href="/blogs/wireless-mesh-networks-explained" className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
                   <Image 
                     src="/MeshNetwork.jpeg" 
                     alt="Mesh Network" 
@@ -147,11 +147,12 @@ export default function Home() {
                     A Complete Analysis of Mesh Networks
                   </p>
                   <p className="text-gray-200 font-mono text-sm m-2">
-		                A Wireless Mesh Network (WMN) is a network where all (or most) devices are connected to each other. Essentially, each device (cell pho
-                    ne, traffic light, laptop, car, sensor etc.) in a mesh network serves as a mini-cell tower or router, wirelessly routing and 
-                    repeating signals received.
+		                A Wireless Mesh Network (WMN) is a network where all (or most) devices are connected to each other. This article
+                    provides a complete overview of the different mesh network architectures along with simulations and analysis of mesh 
+                    network routing protocols. 
                   </p>
-              </div>  
+              </Link>  
+
             </div>
             
               {/* @Laptop: Socials and Footer */}
