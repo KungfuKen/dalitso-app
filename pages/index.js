@@ -123,12 +123,22 @@ export default function Home() {
 			  
 			 <Link href="/" className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
                   <Image 
-                    src="/MeshNetwork.jpeg" 
+                    src="/noor-ouarzazate-city-0384.jpg" 
                     alt="Mesh Network" 
                     className="w-full object-cover rounded-t-3xl"
                     width={500}
                     height={300}
                   />
+				  {/* Blinking Badge Overlaid on Image */}
+				    <div className="absolute top-3 left-3 bg-black/70 backdrop-blur-sm border border-amber-500/30 px-3 py-1 rounded-full flex items-center gap-2">
+				      <span className="relative flex h-2 w-2">
+				        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+				        <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+				      </span>
+				      <span className="text-amber-400 font-mono text-xs uppercase tracking-wider font-semibold">
+				        In Progress
+				      </span>
+				    </div>
                   <p className="text-gray-200 font-mono text-lg font-bold m-2">
                     Concentrated Solar: A Case for the Worlds Most Beautiful Power Plants
                   </p>
