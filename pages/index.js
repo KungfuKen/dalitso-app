@@ -182,14 +182,8 @@ export default function Home() {
                     network routing protocols. 
                   </p>
               </Link>
-			  <Link href="/" className="border border- m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
-                  <Image 
-                    src="" 
-                    alt="" 
-                    className="w-full object-cover rounded-t-3xl"
-                    width={500}
-                    height={300}
-                  />
+			  <Link href="/" className="border  rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02]  transition-all duration-300">              
+                  
                   <p className="text-gray-200 font-mono text-lg font-bold m-2">
                 
                   </p>
