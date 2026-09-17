@@ -34,7 +34,7 @@ export default function Home() {
                 "name": "DTB Insights",
                 "url": "https://dtbinsights.com/",
                 "logo": "https://dtbinsights.com/Logo.png",
-                "description": "Dalitso T Banda - An Electrical and Computer Engineer with hands on experience working on complex systems writing technical analysis of cutting edge engineering systems",
+                "description": "Dalitso T Banda - An Electrical and Computer Engineer with hands-on experience working on complex systems, writing technical analysis of cutting-edge engineering systems",
                 "sameAs": [
                   "https://www.linkedin.com/in/dalitso-banda-6a5435189",
                   "https://wa.me/27769547017"
@@ -156,7 +156,7 @@ export default function Home() {
                     <source src="/U9.mp4" type="video/mp4" />
                   </video>
                   <p className="text-gray-200 font-mono text-lg font-bold m-2">
-                    Engineering 500 KM/H: How the YangWang U9 Engineering Rewrites Hypercar Physics
+                    Engineering 500 KM/H: How the YangWang U9 Rewrites Hypercar Physics
                   </p>
                   <p className="text-gray-200 font-mono text-sm m-2">
                     Electric vehicles aren't supposed to sustain extreme top speeds—until now. This technical deep dive analyses the 
