@@ -152,7 +152,6 @@ export default function Home() {
 					drag to push the boundaries toward 500 km/h.              
                   </p>
               </Link>		
-
             </div>
 						
 			<div className="flex items-stretch justify-center mt-5 md:flex-row flex-col">
@@ -172,7 +171,22 @@ export default function Home() {
                     provides a complete overview of the different mesh network architectures along with simulations and analysis of mesh 
                     network routing protocols. 
                   </p>
-              </Link>  
+              </Link>
+			  <Link href="/" className="border border- m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
+                  <Image 
+                    src="" 
+                    alt="" 
+                    className="w-full object-cover rounded-t-3xl"
+                    width={500}
+                    height={300}
+                  />
+                  <p className="text-gray-200 font-mono text-lg font-bold m-2">
+                
+                  </p>
+                  <p className="text-gray-200 font-mono text-sm m-2">
+		            
+                  </p>
+              </Link> 
 			</div>	
             
               {/* @Laptop: Socials and Footer */}
