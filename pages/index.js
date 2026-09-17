@@ -121,7 +121,7 @@ export default function Home() {
             
             <div className="flex items-stretch justify-center mt-5 md:flex-row flex-col">
 			  
-			 <Link href="/" className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
+			 <Link href="" className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
                   <Image 
                     src="/noor-ouarzazate-city-0384.jpg" 
                     alt="Mesh Network" 
