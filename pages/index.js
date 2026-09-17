@@ -151,9 +151,11 @@ export default function Home() {
 					engineering behind the YangWang U9’s e⁴ quad-motor drivetrain, exploring how it overcomes thermal limits and aerodynamic 
 					drag to push the boundaries toward 500 km/h.              
                   </p>
-              </Link>
+              </Link>		
 
-			 <div className="flex items-stretch justify-center mt-5 md:flex-row flex-col">
+            </div>
+						
+			<div className="flex items-stretch justify-center mt-5 md:flex-row flex-col">
               <Link href="/blogs/wireless-mesh-networks-explained" className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
                   <Image 
                     src="/MeshNetwork.jpeg" 
@@ -171,9 +173,7 @@ export default function Home() {
                     network routing protocols. 
                   </p>
               </Link>  
-			</div>			
-
-            </div>
+			</div>	
             
               {/* @Laptop: Socials and Footer */}
             <div className="text-left mt-5 "> 
