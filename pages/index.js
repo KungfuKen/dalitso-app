@@ -122,7 +122,8 @@ export default function Home() {
             <div className="flex items-stretch justify-center mt-5 md:flex-row flex-col">
 			  
 			 <div className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
-                  <Image 
+              <div className="relative">    
+				<Image 
                     src="/noor-ouarzazate-city-0384.jpg" 
                     alt="Mesh Network" 
                     className="w-full object-cover rounded-t-3xl"
@@ -139,6 +140,7 @@ export default function Home() {
 				        In Progress
 				      </span>
 				    </div>
+				  </div>
                   <p className="text-gray-200 font-mono text-lg font-bold m-2">
                     Concentrated Solar: A Case for the Worlds Most Beautiful Power Plants
                   </p>
