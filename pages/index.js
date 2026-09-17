@@ -122,7 +122,7 @@ export default function Home() {
             <div className="flex items-stretch justify-center mt-5 md:flex-row flex-col">
 			  
 			 <div className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
-              <<div className="relative">    
+              <div className="relative">    
 				<Image 
                     src="/noor-ouarzazate-city-0384.jpg" 
                     alt="Mesh Network" 
@@ -159,9 +159,8 @@ export default function Home() {
                     Engineering 500 KM/H: How the YangWang U9 Rewrites Hypercar Physics
                   </p>
                   <p className="text-gray-200 font-mono text-sm m-2">
-                    Electric vehicles aren't supposed to sustain extreme top speeds—until now. This technical deep dive analyses the 
-					engineering behind the YangWang U9’s e⁴ quad-motor drivetrain, exploring how it overcomes thermal limits and aerodynamic 
-					drag to push the boundaries toward 500 km/h.              
+                    Electric vehicles aren't supposed to attain extreme top speeds—until now. This technical deep dive analyses the 
+					engineering behind the YangWang U9’s e⁴ quad-motor drivetrain, exploring how it pushes the boundaries toward 500 km/h.              
                   </p>
               </Link>		
             </div>
