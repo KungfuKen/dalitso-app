@@ -19,11 +19,11 @@ const articleContent = {
   content: String.raw`
 The fastest production car in the world is an electric car manufactured by BYD's sub-brand Yangwang, called the U9 Xtreme.
 
-For years it was assumed electric cars are only dominant short sprints, like the 0 to 100 km/h sprint, 
-but could never match high performance internal combustion engines in top end speed. But in late 2025 the U9 Xtreme 
+For years, it was assumed electric cars are only dominant in short sprints, like the 0 to 100 km/h sprint, 
+but could never match high-performance internal combustion engines in top-end speed. But in late 2025 the U9 Xtreme 
 shattered this assumption by being the first production car to achieve a top speed of, as near as makes no difference, 500 km/h.
 
-This article analyses how this car's electric drivetrain dubbed the $e^4$ platform - consisting of four independent electric motors - 
+This article analyses how this car's electric drivetrain, dubbed the $e^4$ platform by BYD - consisting of four independent electric motors - 
 is able to propel the U9 to nearly 500 km/h and possibly beyond.
 
 ## VEHICLE SPECIFICATIONS
@@ -36,7 +36,7 @@ is able to propel the U9 to nearly 500 km/h and possibly beyond.
 - Battery: 80 kWh, 30C discharge rate, maximum current 2,000 A.
 
 ## PHYSICS REQUIREMENTS
-
+The drag force exerted on the vehicle at VMAX, approximately 500 km/h, can be calculated with the following equation:
 $$
 F_{\text{drag}} = \frac{1}{2}\rho C_d A v^2
 $$
@@ -46,7 +46,7 @@ Where $C_d = 0.240$, $A = 2.200\,\text{m}^2$, $v = 138.889\,\text{m/s}$, and $\r
 $$
 F_{\text{drag}} = 12\,476.871\,\text{N}
 $$
-
+While the force produced by the drivetrain is calculated as follows:
 $$
 F_{\text{drive}} = \frac{P}{v}
 $$
@@ -61,10 +61,15 @@ $$
 F_{\text{drive}} \gg F_{\text{drag}}
 $$
 
-Suggesting the theoretical top speed is greater than 500 km/h.
+This suggests the theoretical top speed is greater than 500 km/h.
+
+## SYSTEM MODEL
+
+Battery [DC] $\rightarrow$ Inverter [3-phase AC] $\rightarrow$ Stator Coils [Rotating Magnetic Field] $\rightarrow$ Rotor [Torque] $\rightarrow$ Gear [Ratio] $\rightarrow$ Wheels
 
 ## POWER AT THE WHEELS OUTPUT
 
+To confirm the vehicle torque specifications estimate is correct, we can calculate the power produced at the wheels using this equation:
 $$
 P = \tau \times \omega
 $$
@@ -83,14 +88,14 @@ P =
 =
 2\,220\,\text{kW}
 $$
-
-## SYSTEM MODEL
-
-Battery [DC] $\rightarrow$ Inverter [3-phase AC] $\rightarrow$ Stator Coils [Rotating Magnetic Field] $\rightarrow$ Rotor [Torque] $\rightarrow$ Gear [Ratio] $\rightarrow$ Wheels
+This is the exact figure we expect to find. 
 
 ## ELECTRICAL POWER SUPPLIED
 
-Battery power capacity:
+Okay, now how does the vehicle deliver this power to the wheels? To figure out how such massive power is available at the wheels,
+we can calculate the power produced by the U9's electrical system. This can be done in the following ways:
+
+Using Battery power capacity:
 
 $$
 P_{\text{batt}}
@@ -112,7 +117,7 @@ P_{\text{batt}}
 2\,400\,\text{kW}
 $$
 
-The electrical power relationship is:
+Or using the electrical power relationship:
 
 $$
 P = V \times I \times \eta
@@ -124,13 +129,17 @@ $$
 P_{\text{DC}} = 1\,200 \times 2\,000 = 2.4\,\text{MW}
 $$
 
-Since 2,220 kW reaches the wheels while approximately 2,400 kW is supplied by the battery:
+Since 2,220 kW reaches the wheels while approximately 2,400 kW is supplied by the battery due to power losses, the efficiency
+factor is:
 
 $$
 \eta = \frac{2\,220}{2\,400}
 $$
 
 ## ELECTROMAGNETIC CONVERSION
+
+Okay, we understand the battery can deliver this power, but how is this translated into the power required to propel the vehicle 
+forwards? 
 
 ### Inverter DC to 3-Phase AC
 
