@@ -120,17 +120,36 @@ export default function Home() {
             </div>
             
             <div className="flex items-stretch justify-center mt-5 md:flex-row flex-col">
+			  
+			 <Link href="/" className="border border-white m-3 rounded-3xl md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">              
+                  <Image 
+                    src="/MeshNetwork.jpeg" 
+                    alt="Mesh Network" 
+                    className="w-full object-cover rounded-t-3xl"
+                    width={500}
+                    height={300}
+                  />
+                  <p className="text-gray-200 font-mono text-lg font-bold m-2">
+                    Concentrated Solar: A Case for the Worlds Most Beautiful Power Plants
+                  </p>
+                  <p className="text-gray-200 font-mono text-sm m-2">
+		                Renewable energy like wind and solar has an intermittency problem. This technical deep dive 
+						explores how Concentrated Solar Plants (CSP) act as a shock absorber for the power grid, turning fluctuating clean 
+						energy into predictable, dispatchable power.
+                  </p>
+              </Link>
 
               <Link href="blogs/yangwang-u9-analysis" className="border border-white m-3 rounded-3xl mr-2 md:w-1/2 flex flex-col h-100 hover:scale-[1.02] hover:border-green-500 transition-all duration-300">
                   <video className="w-full object-cover rounded-t-3xl" autoPlay loop muted>
                     <source src="/U9.mp4" type="video/mp4" />
                   </video>
                   <p className="text-gray-200 font-mono text-lg font-bold m-2">
-                    Engineering 500 KM/H -<span className="text-gray-200 font-mono font-normal text-sm m-2">A technical analysis of the electric powertrain that                     made BYD's near 500 km/h world record possible. </span>
+                    Engineering 500 KM/H: How the YangWang U9 Engineering Rewrites Hypercar Physics
                   </p>
                   <p className="text-gray-200 font-mono text-sm m-2">
-                    This article analyses how the Yangwang U9 hypercar's e^4 electric drivetrain is able to
-                    propel it to nearly 500 km/h and possibly beyond.              
+                    Electric vehicles aren't supposed to sustain extreme top speeds—until now. This technical deep dive analyses the 
+					engineering behind the YangWang U9’s e⁴ quad-motor drivetrain, exploring how it overcomes thermal limits and aerodynamic 
+					drag to push the boundaries toward 500 km/h.              
                   </p>
               </Link>
               
