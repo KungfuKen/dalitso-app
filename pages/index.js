@@ -85,8 +85,8 @@ export default function Home() {
                 </p>
                 <p className="text-gray-200 font-mono text-sm md:pt-0 pt-2">
                   On DTB Insights, I write in-depth technical analysis of various engineering systems across the electrical domain. 
-                  My background is in telecommunications infrastructure and these days I write technical analysis focused on semiconductor 
-                  technology and clean energy systems — two areas I think matter immensely in the next decade of engineering.
+                  My background is in electrical and electronic communication systems. On this website, I write technical analysis focused on clean energy 
+			      systems — an area I think matters immensely in the next decade of engineering.
                 </p>
               </div>
             </div>
