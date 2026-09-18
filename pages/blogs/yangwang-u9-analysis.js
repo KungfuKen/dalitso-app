@@ -64,7 +64,7 @@ This suggests the theoretical top speed is greater than 500 km/h.
 
 ## SYSTEM MODEL
 
-![YangWang U9 Xtreme System Model](/At 500 kmh.png)
+![YangWang U9 Xtreme System Model](/systemmodel)
 
 ## POWER AT THE WHEELS OUTPUT
 
