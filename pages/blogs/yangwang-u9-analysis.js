@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import "../../styles/globals.css";
 import { Analytics } from "@vercel/analytics/react";
-
 import dynamic from "next/dynamic";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
@@ -65,7 +64,7 @@ This suggests the theoretical top speed is greater than 500 km/h.
 
 ## SYSTEM MODEL
 
-Battery [DC] $\rightarrow$ Inverter [3-phase AC] $\rightarrow$ Stator Coils [Rotating Magnetic Field] $\rightarrow$ Rotor [Torque] $\rightarrow$ Gear [Ratio] $\rightarrow$ Wheels
+![YangWang U9 Xtreme System Model](/At 500 kmh.png)
 
 ## POWER AT THE WHEELS OUTPUT
 
@@ -129,17 +128,18 @@ $$
 P_{\text{DC}} = 1\,200 \times 2\,000 = 2.4\,\text{MW}
 $$
 
-Since 2,220 kW reaches the wheels while approximately 2,400 kW is supplied by the battery due to power losses, the efficiency
+Since 2,220 kW reaches the wheels while approximately 2,400 kW is supplied by the battery, this means that due to power losses, the efficiency
 factor is:
 
 $$
 \eta = \frac{2\,220}{2\,400}
+\eta = 92.5%
 $$
 
 ## ELECTROMAGNETIC CONVERSION
 
-Okay, we understand the battery can deliver this power, but how is this translated into the power required to propel the vehicle 
-forwards? 
+Okay, we understand the battery can deliver this power, but how is this translated into the torque and speed required to turn the motor and propel the vehicle 
+forwards at such high speeds? 
 
 ### Inverter DC to 3-Phase AC
 
@@ -423,8 +423,8 @@ export default function BlogPost() {
             <Image
               src="/U9CoverImage.png"
               alt="YangWang U9 Xtreme"
-              width={600}
-              height={300}
+              width={400}
+              height={200}
               className="rounded-lg"
               priority
             />
