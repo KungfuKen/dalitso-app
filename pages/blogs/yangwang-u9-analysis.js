@@ -145,8 +145,6 @@ magnets on the rotor in the motor then "chase" this spinning field, causing the 
 
 The inverter converts DC into three-phase AC. These three currents induce a spinning magnetic field in the stator.  
 
-![Three_Phase_AC](/Three_Phase_AC)
-
 The synchronous-speed relationship is:
 
 $$
@@ -192,6 +190,8 @@ $$
 
 The currents are 120° or $\frac{2\pi}{3}$ radians out of phase.
 
+![Three_Phase_AC](/Three_Phase_AC.png)
+
 The varying current in the coils produces magnetomotive force:
 
 $$
@@ -221,6 +221,8 @@ Ni_c(t)
 \theta-\frac{4\pi}{3}
 \right)
 $$
+
+![Stator coil arrangement](/Stator_Windings.png)
 
 ### Applying Ampere's Law
 
@@ -267,6 +269,8 @@ $$
 \frac{3}{2}NI_m
 \cos(\omega t-\theta)
 $$
+
+![Rotating magnetic field](/Rotating_Magnetic_Field.png)
 
 Therefore:
 
