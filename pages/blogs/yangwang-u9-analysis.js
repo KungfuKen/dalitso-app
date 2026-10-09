@@ -272,6 +272,11 @@ $$
 
 ![Rotating magnetic field](/Rotating_Magnetic_Field.png)
 
+$$
+\text{MMF}_{\text{total}}
+$$
+Is the rotating magnetic field in the stator that causes the rotor to rotate synchronously with it.  
+
 Therefore:
 
 $$
