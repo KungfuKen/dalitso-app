@@ -145,6 +145,8 @@ magnets on the rotor in the motor then "chase" this spinning field, causing the 
 
 The inverter converts DC into three-phase AC. These three currents induce a spinning magnetic field in the stator.  
 
+![Three_Phase_AC](/Three_Phase_AC)
+
 The synchronous-speed relationship is:
 
 $$
