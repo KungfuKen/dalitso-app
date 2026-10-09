@@ -97,7 +97,7 @@ we can calculate the power produced by the U9's electrical system. This can be d
 Using Battery power capacity:
 
 $$
-P_{\text{batt}}
+P_{\text{battery}}
 =
 \text{Energy Capacity}
 \times
@@ -105,7 +105,7 @@ P_{\text{batt}}
 $$
 
 $$
-P_{\text{batt}}
+P_{\text{battery}}
 =
 80\,000\,\text{Wh}
 \times
@@ -132,18 +132,18 @@ Since 2,220 kW reaches the wheels while approximately 2,400 kW is supplied by th
 factor is:
 
 $$
-\eta = \frac{2\,220}{2\,400}
-\eta = 92.5%
+\eta = \frac{2\,220}{2\,400}\, \eta = 92.5%
 $$
 
 ## ELECTROMAGNETIC CONVERSION
 
-Okay, we understand the battery can deliver this power, but how is this translated into the torque and speed required to turn the motor and propel the vehicle 
-forwards at such high speeds? 
+Okay, we understand the battery has the capability to deliver the required power, but how is this translated into the torque and speed required to turn the motor and propel the vehicle 
+to nearly 500 km/h? The answer is that an inverter converts the DC supply from the battery into AC supplies that induce a rotating magnetic field in the stator of the motor. The 
+magnets on the rotor in the motor then "chase" this spinning field, causing the rotor to spin, thus driving the wheels. 
 
 ### Inverter DC to 3-Phase AC
 
-The inverter converts DC into three-phase AC.
+The inverter converts DC into three-phase AC. These three currents induce a spinning magnetic field in the stator.  
 
 The synchronous-speed relationship is:
 
