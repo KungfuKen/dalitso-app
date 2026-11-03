@@ -16,7 +16,10 @@ const articleContent = {
   title: "Concentrated Solar: A Case for the World's Most Beautiful Power Plants",
 
   content: String.raw`
-## Introduction 
+As more renewable sources are added to the electricity grid, a major problem is emerging. The grid needs stability to function, meaning the amount of energy generated has to be
+equal to the amount of energy consumed. The problem is that renewable energy sources are intermittent; their power production is dependent on environmental
+factors, i.e., sunlight hours or wind patterns. Additionally, in traditional power plants, spinning turbines absorb the deviations in grid frequency by spinning faster or slower,
+while in renewables - that are connected to the grid via power electronics like inverters this ability is absent. 
 
 ## What is concentrated solar 
 
@@ -24,7 +27,7 @@ const articleContent = {
 
 ## How can it help grid stability?
 
-## Cost comparison to alternatives (eg Batteries)
+## Cost comparison to alternatives (e.g., batteries)
 
 `
 };
@@ -33,7 +36,7 @@ export default function BlogPost() {
   return (
     <div className="min-h-screen bg-zinc-900 text-zinc-200">
       <Head>
-        <title>YangWang U9 Xtreme Analysis</title>
+        <title>Concentrated Solar Examined</title>
         <meta
           name="description"
           content="Technical analysis of the YangWang U9 Xtreme electric powertrain."
