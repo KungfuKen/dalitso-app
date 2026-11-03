@@ -59,9 +59,9 @@ export default function BlogPost() {
           </h1>
 
           <div className="mb-10 flex justify-center">
-            <Image
-              src="/U9CoverImage.png"
-              alt="YangWang U9 Xtreme"
+           <Image 
+              src="/noor-ouarzazate-city-0384.jpg" 
+              alt="Concentrated Solar" 
               width={400}
               height={200}
               className="rounded-lg"
