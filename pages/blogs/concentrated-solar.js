@@ -16,8 +16,14 @@ const articleContent = {
   title: "Concentrated Solar: A Case for the World's Most Beautiful Power Plants",
 
   content: String.raw`
-As more renewable sources are added to the electricity grid, a major problem is emerging. The grid needs stability to function, meaning the amount of energy generated has to be
-equal to the amount of energy consumed. The problem is that renewable energy sources are intermittent; their power production is dependent on environmental
+As more renewable sources are added to the electricity grid, a major problem is emerging. The grid needs to maintain stable frequency to function effectively, this is achieved 
+by ensuring the amount of power generated is equal to the amount of power consumed at all instances.
+
+In a traditional power plant, a synchronous generator spins at the grid frequency (50 Hz or 60 Hz). The generator is subject to two forces: the mechanical torque produced by
+the steam or water that physically spins the rotor in the generator and the electrical torque produced by the loads on the grid that draw power from the stator coils - the 
+current drawn induces a magnetic field in the stator that opposes the rotation of the stator (Lenz Law) 
+
+The problem is that renewable energy sources are intermittent; their power production is dependent on environmental
 factors, i.e., sunlight hours or wind patterns. Additionally, in traditional power plants, spinning turbines absorb the deviations in grid frequency by spinning faster or slower,
 while in renewables - that are connected to the grid via power electronics like inverters this ability is absent. 
 
