@@ -20,11 +20,15 @@ As more renewable sources are added to the electricity grid, a major problem is 
 when the amount of power generated is equal to the amount of power consumed at all instances.
 
 In a traditional power plant, a synchronous generator spins at the grid frequency (50 Hz or 60 Hz). Disturbances in the grid are absorbed easily since the spinning rotor in 
-the generator can either absorb an excess of energy or give out energy during a deficit by changing its rate of spin. When the mechanical torque produced by the steam or water 
-that physically spins the rotor in the generator exceeds the electrical torque produced by the loads on the grid, i.e., more power is produced than consumed, the net torque causes
-the rotor to speed up, absorbing the excess energy and increasing frequency. When the power consumed is greater than power production, grid frequency reduces via the same mechanism.
+the generator can either absorb an excess of energy or give out energy during a deficit by changing its rate of spin. 
 
-Thus when Tmec = Tele the frequency is constant since Tmec - Tele prop change in angular
+When the mechanical torque produced by the steam or water that physically spins the rotor in the generator exceeds the electrical torque produced by the loads on the grid, 
+i.e., more power is produced than consumed, the net torque causes the rotor to speed up, absorbing the excess energy and increasing frequency. When the power consumed is 
+greater than power production, grid frequency reduces via the same mechanism.
+
+$$
+T_{\text{mechanical}} - T_{\text{electrical}} \propto \frac{df}{dt}
+$$
 
 The problem is that renewable energy sources have no large spinning rotors that can absorb grid disruptions; their power production is integrated into the grid via inverters that 
 ensure the correct frequency is supplied to the grid. Thus, grid disruptions are more difficult to deal with in grid networks that consist of a large number of renewable sources.
@@ -35,6 +39,10 @@ stability that traditional power plants offer. It can also store significant amo
 This article explores the operation of concentrated solar plants and how it can help aid grid stability as the energy transition takes hold. 
 
 ## What is concentrated solar 
+
+Concentrated solar uses an array of mirrors called heliostats to focus sunlight onto a receiver, generating high amounts of thermal energy that is used to drive a turbine and 
+generate electricity. The thermal energy is typically stored as molten salt that is then used to create steam that drives a generator. 
+
 
 
 ## How does it operate
