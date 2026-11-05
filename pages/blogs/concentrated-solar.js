@@ -17,17 +17,25 @@ const articleContent = {
 
   content: String.raw`
 As more renewable sources are added to the electricity grid, a major problem is emerging. The grid needs to maintain stable frequency to function effectively, this is achieved 
-by ensuring the amount of power generated is equal to the amount of power consumed at all instances.
+when the amount of power generated is equal to the amount of power consumed at all instances.
 
-In a traditional power plant, a synchronous generator spins at the grid frequency (50 Hz or 60 Hz). The generator is subject to two forces: the mechanical torque produced by
-the steam or water that physically spins the rotor in the generator and the electrical torque produced by the loads on the grid that draw power from the stator coils - the 
-current drawn induces a magnetic field in the stator that opposes the rotation of the stator (Lenz Law) 
+In a traditional power plant, a synchronous generator spins at the grid frequency (50 Hz or 60 Hz). Disturbances in the grid are absorbed easily since the spinning rotor in 
+the generator can either absorb an excess of energy or give out energy during a deficit by changing its rate of spin. When the mechanical torque produced by the steam or water 
+that physically spins the rotor in the generator exceeds the electrical torque produced by the loads on the grid, i.e., more power is produced than consumed, the net torque causes
+the rotor to speed up, absorbing the excess energy and increasing frequency. When the power consumed is greater than power production, grid frequency reduces via the same mechanism.
 
-The problem is that renewable energy sources are intermittent; their power production is dependent on environmental
-factors, i.e., sunlight hours or wind patterns. Additionally, in traditional power plants, spinning turbines absorb the deviations in grid frequency by spinning faster or slower,
-while in renewables - that are connected to the grid via power electronics like inverters this ability is absent. 
+Thus when Tmec = Tele the frequency is constant since Tmec - Tele prop change in angular
+
+The problem is that renewable energy sources have no large spinning rotors that can absorb grid disruptions; their power production is integrated into the grid via inverters that 
+ensure the correct frequency is supplied to the grid. Thus, grid disruptions are more difficult to deal with in grid networks that consist of a large number of renewable sources.
+
+Concentrated solar, particularly the power tower configuration, however, is different to most renewable sources in that it utilises a generator, thus providing the benefits to grid
+stability that traditional power plants offer. It can also store significant amounts of energy and thus can still generate power when environmental conditions are unfavourable. 
+
+This article explores the operation of concentrated solar plants and how it can help aid grid stability as the energy transition takes hold. 
 
 ## What is concentrated solar 
+
 
 ## How does it operate
 
