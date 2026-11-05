@@ -44,8 +44,7 @@ Concentrated solar uses an array of mirrors called heliostats to focus sunlight 
 generate electricity. The thermal energy is typically stored as molten salt that is then used to create steam that drives a generator. 
 
 
-
-## How does it operate
+## Operating Parameters
 
 ## How can it help grid stability?
 
