@@ -33,11 +33,12 @@ This article explores the operation of concentrated solar plants and how it can 
 ## What is concentrated solar 
 
 Concentrated solar uses an array of mirrors called heliostats to focus sunlight onto a receiver, generating high amounts of thermal energy that is used to drive a turbine and 
-generate electricity. The thermal energy is typically stored as molten salt that is then used to create steam that drives a generator. 
+generate electricity similar to how a traditional thermal power plant operates. 
 
 ![Concentrated Solar Diagram](/Conc-solar-diagram.png)
 
-## Operating Parameters
+The amount of energy a concentrated solar plant can produce is determined by how much thermal energy is generated, which is in turn primarily determined by how much
+sunlight in direct beams a site receives - this is called Direct Normal Irradiance (DNI). 
 
 ## How can it help grid stability?
 
