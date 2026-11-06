@@ -35,6 +35,7 @@ This article explores the operation of concentrated solar plants and how it can 
 Concentrated solar uses an array of mirrors called heliostats to focus sunlight onto a receiver, generating high amounts of thermal energy that is used to drive a turbine and 
 generate electricity. The thermal energy is typically stored as molten salt that is then used to create steam that drives a generator. 
 
+![Concentrated Solar Diagram](/Conc-solar-diagram.png)
 
 ## Operating Parameters
 
