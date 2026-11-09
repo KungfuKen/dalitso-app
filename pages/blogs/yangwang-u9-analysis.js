@@ -423,6 +423,19 @@ export default function BlogPost() {
         <meta property="og:url" content="https://dtbinsights.com/blogs/yangwang-u9-analysis" />
       </Head>
 
+      <div className="w-screen">
+          <Image
+              className="top-5 left-3 absolute"
+              src="/LogoDTB.png" // 
+              alt="Site Logo"
+              width={150}
+              height={70}
+            />
+          <a href="#bottom" className="font-bold text-sm bg-zinc-900 border-2 border-white absolute top-5 right-4 p-2 rounded-3xl opacity-80">
+            Get in touch
+          </a>
+        </div>
+
       <main className="mx-auto w-full max-w-4xl px-6 py-12">
         <article className="font-mono text-sm leading-relaxed text-zinc-300">
 
