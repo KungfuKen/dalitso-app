@@ -410,7 +410,7 @@ export default function BlogPost() {
           name="description"
           content="Technical analysis of the YangWang U9 Xtreme electric powertrain."
         />
-        <meta name="keywords" content="YangWang U9 Xtreme, Electric Vehicle, EV, Technology" />
+        <meta name="keywords" content="YangWang U9 Xtreme, Electric Vehicle, EV, Technology, BYD" />
         <meta name="author" content="DTB Insights" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="YangWang U9 Xtreme Analysis" />
