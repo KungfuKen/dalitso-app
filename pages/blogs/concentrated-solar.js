@@ -46,6 +46,7 @@ $$
 T_{\text{mechanical}} - T_{\text{electrical}} \propto \frac{df}{dt}
 $$
 
+
 ## Cost comparison to alternatives (e.g., batteries)
 
 `
@@ -58,19 +59,19 @@ export default function BlogPost() {
         <title>Concentrated Solar Examined</title>
         <meta
           name="description"
-          content="Technical analysis of the YangWang U9 Xtreme electric powertrain."
+          content="General overview of concentrated solar."
         />
-        <meta name="keywords" content="YangWang U9 Xtreme, Electric Vehicle, EV, Technology" />
+        <meta name="keywords" content="Solar, Renewable Energy, Technology" />
         <meta name="author" content="DTB Insights" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="YangWang U9 Xtreme Analysis" />
+        <meta property="og:title" content="Overview of Concentrated Solar" />
         <meta
           property="og:description"
-          content="Technical analysis of the YangWang U9 Xtreme electric powertrain."
+          content="General overview of concentrated solar."
         />
         <meta property="og:image" content="/YangWangU9.png" />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://dtbinsights.com/blogs/yangwang-u9-analysis" />
+        <meta property="og:url" content="https://dtbinsights.com/blogs/concentrated-solar" />
       </Head>
 
       <main className="mx-auto w-full max-w-4xl px-6 py-12">
@@ -82,7 +83,7 @@ export default function BlogPost() {
 
           <div className="mb-10 flex justify-center">
            <Image 
-              src="/noor-ouarzazate-city-0384.jpg" 
+              src="/conc_solar_wallpaper.jpg" 
               alt="Concentrated Solar" 
               width={400}
               height={200}
