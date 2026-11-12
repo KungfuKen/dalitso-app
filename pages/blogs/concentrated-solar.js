@@ -17,16 +17,12 @@ const articleContent = {
 
   content: String.raw`
 As more renewable sources are added to the electricity grid, a major problem is emerging. The grid needs to maintain stable frequency to function effectively, this is achieved 
-when the amount of power generated is equal to the amount of power consumed at all instances.
+when the amount of power generated is equal to the amount of power consumed at all instances. In a traditional power plant, a synchronous generator spins at the grid frequency (50 Hz or 60 Hz) 
+can absorb disturbances since the spinning rotor in the generator can either absorb excess energy or release energy during a deficit by changing its rotational speed. 
 
-In a traditional power plant, a synchronous generator spins at the grid frequency (50 Hz or 60 Hz). Disturbances in the grid are absorbed easily since the spinning rotor in 
-the generator can either absorb an excess of energy or give out energy during a deficit by changing its rate of spin. 
-
-The problem is that renewable energy sources have no large spinning rotors that can absorb grid disruptions; their power production is integrated into the grid via inverters that 
-ensure the correct frequency is supplied to the grid. Thus, grid disruptions are more difficult to deal with in grid networks that consist of a large number of renewable sources.
-
-Concentrated solar, particularly the power tower configuration, however, is different to most renewable sources in that it utilises a generator, thus providing the benefits to grid
-stability that traditional power plants offer. It can also store significant amounts of energy and thus can still generate power when environmental conditions are unfavourable. 
+The problem is that renewable energy sources have no large spinning rotors that can absorb grid disruptions. Thus, grid disruptions are more difficult to deal with in grid networks 
+that consist of a large number of renewable sources. Concentrated solar, however, is different to most renewable sources in that it utilises a generator, thus providing 
+the benefits to grid stability that traditional power plants offer. It can also store significant amounts of energy and thus can still generate power when environmental conditions are unfavourable. 
 
 This article explores the operation of concentrated solar plants and how it can help aid grid stability as the energy transition takes hold. 
 
